@@ -1,0 +1,14 @@
+.git/
+.idea/
+__pycache__/
+analysis/
+Prediction_model/data/new_analytics_challenge_dataset_edited.pkl
+Prediction_model/data/new_analytics_challenge_dataset_edited.xlsx
+Prediction_model/data/test.pkl
+Prediction_model/data/test.xlsx
+otherFunction/
+
+test.py
+
+!analysis/keywords_nkey_dict.pkl
+!analysis/emotion_dict.pkl
