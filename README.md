@@ -5,20 +5,14 @@
 ## 1: Sampling
 Extract Data from top 20 publishers & the recent 3 years  (i.e., 2020-2022)
 
-Please refer to Release: 2020to2022data
-
-Download via:
-https://github.com/kychunab/team2223/releases/download/2020to2022data/2020to2022data.csv
+Please refer to file: 2020to2022data.csv in dataset
 
 ## 2: Translation and Combine
 Split the Dataset into small parts and translate using google API.
 Combine the translated files into one
 Create Column "tran_headline" and "tran_content"
 
-Please refer to Release: 2020to2022transdata
-
-Download via:
-https://github.com/kychunab/team2223/releases/download/trandata/real_2020_22tranfinal.csv
+Please refer to file: 2020to2022transdata.csv in dataset
 
 ## 3: Data Cleansing
 Remove null / poorly translated data and perform text preprocessing
@@ -31,10 +25,7 @@ Sentiment: https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment
 
 Esg Categories Classification: https://huggingface.co/yiyanghkust/finbert-esg-9-categories
 
-Please refer to Release: 20_22ESGSentidata
-
-Download via:
-https://github.com/kychunab/team2223/releases/download/esgsentidata/20_22ESGsentidata.csv
+Please refer to Release: 20_22ESGSentidata.csv in dataset
 
 ## 5: Define keywords  and extract rows that contain that those keywords
 Please check the folder "5_Code and Data for Keyword Extraction"
