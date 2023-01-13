@@ -6,6 +6,7 @@ Methodology:
 Extract Data from top 20 publishers & the recent 3 years  (i.e., 2020-2022)
 
 Please refer to Release: 2020to2022data
+
 Download via:
 https://github.com/kychunab/team2223/releases/download/2020to2022data/2020to2022data.csv
 
@@ -15,6 +16,7 @@ Combine the translated files into one
 Create Column "tran_headline" and "tran_content"
 
 Please refer to Release: 2020to2022transdata
+
 Download via:
 https://github.com/kychunab/team2223/releases/download/trandata/real_2020_22tranfinal.csv
 
@@ -24,10 +26,13 @@ Remove null / poorly translated data and perform text preprocessing
 4: ESG and Senti label Adding
 Adding ESG categories and sentiment labels to the dataset
 With reference to model:
+
 Sentiment: https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment
+
 Esg Categories Classification: https://huggingface.co/yiyanghkust/finbert-esg-9-categories
 
 Please refer to Release: 20_22ESGSentidata
+
 Download via:
 https://github.com/kychunab/team2223/releases/download/esgsentidata/20_22ESGsentidata.csv
 
